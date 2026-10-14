@@ -1,0 +1,76 @@
+/* Định dạng chung và đổi màu nền trang */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f3;
+    margin: 0;
+    padding: 50px;
+}
+
+/* Khung chứa nội dung */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Bộ chọn ID (#main-title): Căn giữa và đổi màu tiêu đề */
+#main-title {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Bộ chọn Class (.intro-text): Định dạng đoạn văn */
+.intro-text {
+    font-size: 16px;
+    color: #555555;
+    line-height: 1.6;
+    text-align: center;
+}
+
+h2 {
+    color: #34495e;
+    font-size: 20px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+/* Định dạng danh sách sở thích với các lớp khác nhau */
+.hobby-list {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.hobby-item {
+    font-size: 15px;
+    margin: 8px 0;
+    color: #27ae60; /* Màu sắc cho danh sách */
+}
+
+/* Căn giữa nút bấm */
+.btn-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Định dạng nút bấm và hiệu ứng Hover */
+.action-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Pseudo-class :hover hiệu ứng khi di chuột vào nút */
+.action-btn:hover {
+    background-color: #2980b9;
+}
